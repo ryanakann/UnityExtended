@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace MonoGame.Extended.Tweening
+namespace UnityEngine.Extended.Tweening
 {
     public class Tweener : IDisposable
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace MonoGame.Extended.Tweening
+namespace UnityEngine.Extended.Tweening
 {
     public abstract class TweenMember
     {

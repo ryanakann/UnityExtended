@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace MonoGame.Extended.Tweening
+namespace UnityEngine.Extended.Tweening
 {
     public class Tween<T> : Tween
         where T : struct 
@@ -62,7 +62,7 @@ namespace MonoGame.Extended.Tweening
         public bool IsAlive { get; private set; }
         public bool IsComplete { get; private set; }
         public float TimeRemaining => Duration - _elapsedDuration;
-        public float Completion => MathHelper.Clamp(_completion, 0, 1);
+        public float Completion => Mathf.Clamp(_completion, 0, 1);
 
         private Func<float, float> _easingFunction;
         private bool _isInitialized;
